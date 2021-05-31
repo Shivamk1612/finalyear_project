@@ -7,7 +7,7 @@ import yfinance as yf
 #from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 
-START = "2021-01-01"
+START = "2010-01-01"
 END = date.today().strftime("%Y-%m-%d")
 
 st.title("Crude Oil Price Prediction App")
